@@ -1,0 +1,277 @@
+.about-page { padding-top: 80px; }
+
+/* Hero */
+.about-hero {
+  background: linear-gradient(135deg, var(--beige) 50%, var(--cream));
+  padding: 80px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.about-hero .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
+.about-hero-content {}
+
+.about-h1 {
+  font-size: clamp(32px, 4vw, 52px);
+  margin-bottom: 20px;
+}
+
+.about-h1 em {
+  color: var(--forest-green);
+  font-style: italic;
+}
+
+.about-hero-content p {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.about-hero-img {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  aspect-ratio: 4/3;
+}
+
+.about-hero-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Mission & Vision */
+.mv-section {
+  padding: 80px 0;
+  background: var(--off-white);
+}
+
+.mv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.mv-card {
+  background: #fff;
+  border-radius: var(--radius-xl);
+  padding: 48px 40px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.mv-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+.mv-card.mission {
+  border-top: 4px solid var(--forest-green);
+}
+
+.mv-card.vision {
+  border-top: 4px solid var(--earthy-brown);
+}
+
+.mv-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.mv-card h2 {
+  font-size: 28px;
+  color: var(--dark-brown);
+  margin-bottom: 16px;
+}
+
+.mv-card p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+/* Timeline */
+.timeline-section {
+  padding: 96px 0;
+  background: var(--cream);
+}
+
+.timeline {
+  position: relative;
+  padding: 48px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border-color);
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: calc(50% + 32px);
+  margin-bottom: 48px;
+  position: relative;
+}
+
+.timeline-item.right {
+  justify-content: flex-start;
+  padding-right: 0;
+  padding-left: calc(50% + 32px);
+}
+
+.timeline-content {
+  background: #fff;
+  border-radius: var(--radius-md);
+  padding: 24px;
+  border: 1px solid var(--border-color);
+  max-width: 320px;
+  transition: var(--transition);
+}
+
+.timeline-content:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.tl-year {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--forest-green);
+  margin-bottom: 8px;
+}
+
+.tl-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: var(--dark-brown);
+  margin-bottom: 10px;
+}
+
+.tl-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--forest-green);
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 3px var(--forest-green);
+  z-index: 1;
+}
+
+/* Values */
+.values-section {
+  padding: 96px 0;
+  background: var(--beige);
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.vcard {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  border: 1px solid var(--border-color);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.vcard:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+.vcard-icon {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.vcard-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dark-brown);
+  margin-bottom: 10px;
+}
+
+.vcard-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Philosophy */
+.philosophy-section {
+  padding: 96px 0;
+  background: var(--off-white);
+}
+
+.philosophy-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.philosophy-text p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+}
+
+.philosophy-img {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.philosophy-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .about-hero .container { grid-template-columns: 1fr; }
+  .about-hero-img { max-height: 300px; }
+  .mv-grid { grid-template-columns: 1fr; }
+  .values-grid { grid-template-columns: repeat(2, 1fr); }
+  .philosophy-inner { grid-template-columns: 1fr; }
+  .timeline-item { padding-right: 0; justify-content: center; padding-left: 0; }
+  .timeline-item.right { padding-left: 0; }
+  .timeline-line { display: none; }
+  .timeline-dot { display: none; }
+  .timeline-content { max-width: 100%; }
+  .timeline { padding: 0; }
+}
+
+@media (max-width: 600px) {
+  .values-grid { grid-template-columns: 1fr; }
+}
+

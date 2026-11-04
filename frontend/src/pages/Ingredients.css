@@ -1,0 +1,185 @@
+.ingredients-page { padding-top: 80px; }
+
+.ingr-hero {
+  background: linear-gradient(135deg, var(--beige), var(--cream));
+  padding: 80px 0 60px;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.ingr-hero-sub {
+  font-size: 17px;
+  color: var(--text-secondary);
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.75;
+}
+
+.ingr-gallery {
+  padding: 64px 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.ingr-card {
+  background: #fff;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  transition: var(--transition);
+}
+
+.ingr-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-6px);
+}
+
+.ingr-card.wide {
+  /* keep same as normal */
+}
+
+.ingr-card-img {
+  position: relative;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+}
+
+.ingr-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.ingr-card:hover .ingr-card-img img {
+  transform: scale(1.07);
+}
+
+.ingr-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 60%);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.ingr-card:hover .ingr-overlay {
+  opacity: 1;
+}
+
+.ingr-products {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.ingr-products span {
+  background: rgba(255,255,255,0.9);
+  color: var(--forest-green);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 50px;
+}
+
+.ingr-card-body {
+  padding: 24px;
+}
+
+.ingr-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.ingr-card-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: var(--dark-brown);
+  margin-bottom: 4px;
+}
+
+.ingr-card-hindi {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.ingr-badge-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.ingr-product-badge {
+  background: var(--beige);
+  color: var(--earthy-brown);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 50px;
+  white-space: nowrap;
+}
+
+.ingr-card-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* CTA */
+.ingr-cta {
+  background: var(--beige);
+  padding: 80px 24px;
+}
+
+.ingr-cta-card {
+  background: linear-gradient(135deg, var(--forest-green), #3d6b4f);
+  border-radius: var(--radius-xl);
+  padding: 64px 48px;
+  text-align: center;
+  color: #fff;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.ingr-cta-card h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.ingr-cta-card p {
+  font-size: 16px;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.75;
+  margin-bottom: 36px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ingr-cta-card .btn-primary {
+  background: #fff;
+  color: var(--forest-green);
+}
+
+.ingr-cta-card .btn-primary:hover {
+  background: var(--beige);
+}
+
+@media (max-width: 900px) {
+  .ingr-gallery { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .ingr-gallery { grid-template-columns: 1fr; }
+  .ingr-cta-card { padding: 40px 24px; }
+}
+
