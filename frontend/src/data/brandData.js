@@ -189,45 +189,45 @@ export const INGREDIENTS_GALLERY = [
   },
   {
     name: 'Ragi', hindi: 'Finger Millet',
-    image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=700&q=80',,
-  description: 'A staple grain in South India, Ragi is celebrated for its calcium content. It has been a cornerstone of traditional Indian nutrition for generations.',
-  products: ['BoneBoost'],
+    image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=700&q=80',
+    description: 'A staple grain in South India, Ragi is celebrated for its calcium content. It has been a cornerstone of traditional Indian nutrition for generations.',
+    products: ['BoneBoost'],
   },
-{
-  name: 'Psyllium Husk', hindi: 'Isabgol',
+  {
+    name: 'Psyllium Husk', hindi: 'Isabgol',
     image: 'https://images.unsplash.com/photo-1579113800032-c38bd7635818?w=500&q=80',
-      description: 'Isabgol has been used in traditional Indian wellness practices for generations. One of the best-known natural sources of soluble dietary fibre.',
-        products: ['FibreFit'],
+    description: 'Isabgol has been used in traditional Indian wellness practices for generations. One of the best-known natural sources of soluble dietary fibre.',
+    products: ['FibreFit'],
   },
-{
-  name: 'Amla', hindi: 'Indian Gooseberry',
+  {
+    name: 'Amla', hindi: 'Indian Gooseberry',
     image: 'https://images.unsplash.com/photo-1547514701-42782101795e?w=500&q=80',
-      description: 'Amla, or Indian gooseberry, is one of the richest natural sources of Vitamin C. Treasured in Ayurveda as a rejuvenating ingredient.',
-        products: ['IronRich'],
+    description: 'Amla, or Indian gooseberry, is one of the richest natural sources of Vitamin C. Treasured in Ayurveda as a rejuvenating ingredient.',
+    products: ['IronRich'],
   },
-{
-  name: 'Ajwain', hindi: 'Carom Seeds',
+  {
+    name: 'Ajwain', hindi: 'Carom Seeds',
     image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=500&q=80',
-      description: 'A beloved spice in every Indian kitchen, Ajwain has been used for centuries as a digestive aid. Its essential oils give it a distinct, warm aroma.',
-        products: ['DigestEase'],
+    description: 'A beloved spice in every Indian kitchen, Ajwain has been used for centuries as a digestive aid. Its essential oils give it a distinct, warm aroma.',
+    products: ['DigestEase'],
   },
-{
-  name: 'Triphala', hindi: 'Three Fruits Blend',
+  {
+    name: 'Triphala', hindi: 'Three Fruits Blend',
     image: 'https://images.unsplash.com/photo-1547592180-85f173990554?w=500&q=80',
-      description: 'One of the most revered classical combinations in Ayurveda – a blend of three dried fruits: Amalaki, Bibhitaki and Haritaki.',
-        products: ['DigestEase'],
+    description: 'One of the most revered classical combinations in Ayurveda – a blend of three dried fruits: Amalaki, Bibhitaki and Haritaki.',
+    products: ['DigestEase'],
   },
-{
-  name: 'Flaxseed', hindi: 'Alsi',
+  {
+    name: 'Flaxseed', hindi: 'Alsi',
     image: 'https://images.unsplash.com/photo-1515543904379-3d757afe72e4?w=500&q=80',
-      description: 'Flaxseeds, known as Alsi in India, are a rich plant source of dietary fibre and omega-3 fatty acids. A small seed with impressive nutritional properties.',
-        products: ['FibreFit'],
+    description: 'Flaxseeds, known as Alsi in India, are a rich plant source of dietary fibre and omega-3 fatty acids. A small seed with impressive nutritional properties.',
+    products: ['FibreFit'],
   },
-{
-  name: 'Beetroot', hindi: 'Chukandar',
+  {
+    name: 'Beetroot', hindi: 'Chukandar',
     image: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=500&q=80',
-      description: 'A vibrant root vegetable known for its deep red colour and earthy flavour. A wonderful whole-food ingredient in wellness formulations.',
-        products: ['IronRich'],
+    description: 'A vibrant root vegetable known for its deep red colour and earthy flavour. A wonderful whole-food ingredient in wellness formulations.',
+    products: ['IronRich'],
   },
 ];
 
