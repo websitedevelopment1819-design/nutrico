@@ -8,8 +8,8 @@ const productsRoute = require("./routes/product");
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        process.env.FRONTEND_URL
-    ].filter(Boolean)
+        "https://nutrico-frontend1.vercel.app"
+    ]
 }));
 
 app.use(express.json());
