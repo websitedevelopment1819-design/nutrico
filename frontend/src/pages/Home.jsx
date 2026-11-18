@@ -23,7 +23,7 @@ const TESTIMONIAL_PLACEHOLDER = [
   {
     name: 'Share Your Story',
     location: 'India',
-    text: 'Try NUTRICO and share your experience! Follow us on Instagram for community updates.',
+    text: 'Try NUTRICO and share your experience! ,
     placeholder: true,
   },
   {
@@ -117,38 +117,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Testimonials ── */}
-      <section className="section testimonials-section">
-        <div className="container">
-          <div className="text-center">
-            <span className="section-tag">Customer Reviews</span>
-            <h2 className="section-title">Real Reviews, Coming Soon</h2>
-            <p className="section-subtitle">
-              We believe in honesty. These are placeholder cards – genuine customer reviews will appear here.
-            </p>
-          </div>
-          <div className="testimonials-grid">
-            {TESTIMONIAL_PLACEHOLDER.map((t, i) => (
-              <div key={i} className="tcard">
-                <p className="tcard-text">"{t.text}"</p>
-                <div className="tcard-author">
-                  <div className="tcard-avatar">{t.name[0]}</div>
-                  <div>
-                    <p className="tcard-name">{t.name}</p>
-                    <p className="tcard-loc">{t.location}</p>
-                  </div>
-                </div>
-                <div className="tcard-placeholder-badge">Placeholder</div>
-              </div>
-            ))}
-          </div>
-          <div className="text-center" style={{ marginTop: 36 }}>
-            <a href={BRAND.instagram} target="_blank" rel="noopener noreferrer" className="btn-secondary">
-              Share Your Experience on Instagram
-            </a>
-          </div>
-        </div>
-      </section>
+
 
       {/* ── Newsletter ── */}
       <section className="newsletter-section">
