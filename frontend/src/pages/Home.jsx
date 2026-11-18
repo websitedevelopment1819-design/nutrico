@@ -23,7 +23,6 @@ const TESTIMONIAL_PLACEHOLDER = [
   {
     name: 'Share Your Story',
     location: 'India',
-    text: 'Try NUTRICO and share your experience! ,
     placeholder: true,
   },
   {
