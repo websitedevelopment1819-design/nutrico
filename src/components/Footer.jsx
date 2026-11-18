@@ -8,6 +8,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-top container">
+
         <div className="footer-brand">
           <Link to="/" className="footer-logo">
             <Leaf size={22} />
@@ -42,6 +43,7 @@ export default function Footer() {
             <li><Link to="/about">About Us</Link></li>
           </ul>
         </div>
+
       </div>
 
       <div className="footer-bottom container">
