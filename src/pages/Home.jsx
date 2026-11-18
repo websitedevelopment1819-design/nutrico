@@ -23,7 +23,7 @@ const TESTIMONIAL_PLACEHOLDER = [
   {
     name: 'Share Your Story',
     location: 'India',
-    text: 'Try NUTRICO and share your experience! Follow us on Instagram for community updates.',
+    text: 'Try NUTRICO and share your experience!,
     placeholder: true,
   },
   {
@@ -144,7 +144,7 @@ export default function Home() {
           </div>
           <div className="text-center" style={{ marginTop: 36 }}>
             <a href={BRAND.instagram} target="_blank" rel="noopener noreferrer" className="btn-secondary">
-              Share Your Experience on Instagram
+
             </a>
           </div>
         </div>
